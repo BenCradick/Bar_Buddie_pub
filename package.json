@@ -1,6 +1,6 @@
 {
   "name": "bar-buddy",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Get a Lyft without your phone",
   "main": "main.js",
   "scripts": {
@@ -18,5 +18,8 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "~1.7.8"
+  },
+  "dependencies": {
+    "node-lyft": "^1.0.3"
   }
 }

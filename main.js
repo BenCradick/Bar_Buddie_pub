@@ -1,3 +1,4 @@
+//import lyft from 'node-lyft';
 const electron = require('electron')
 // Module to control application life.
 const app = electron.app
@@ -32,6 +33,27 @@ function createWindow () {
     // when you should delete the corresponding element.
     mainWindow = null
   })
+}
+
+function requestRide(){
+  /*let defaultClient = lyft.ApiClient.instance;
+
+  // Configure OAuth2 access token for authorization: User Authentication
+  let userAuth = defaultClient.authentications['User Authentication'];
+  userAuth.accessToken = 'YOUR ACCESS TOKEN';
+
+  let apiInstance = new lyft.UserApi();
+
+  let request = new lyft.Ride('lyft', new lyft.Location(37.77663, -122.39227));
+  request.destination = new lyft.Location(37.771, -122.39123);
+
+  apiInstance.newRide(request).then((data) => {
+  console.log('API called successfully. Returned data: ' + data);
+  }, (error) => {
+    console.error(error);
+  });*/
+  console.log('AYY_LMAO');
+  
 }
 
 // This method will be called when Electron has finished
