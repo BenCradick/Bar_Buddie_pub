@@ -1,0 +1,22 @@
+{
+  "name": "bar-buddy",
+  "version": "0.0.1",
+  "description": "Get a Lyft without your phone",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/root1337/bar-buddy",
+  "keywords": [
+    "Lyft",
+    "bar",
+    "buddy",
+    "phone",
+    "drunk"
+  ],
+  "author": "Vinay,Michael,Conner,Ben",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "~1.7.8"
+  }
+}
